@@ -1,6 +1,6 @@
 # npmtest-gulp-data
 
-#### test coverage for  [gulp-data (v1.2.1)](https://github.com/colynb/gulp-data#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-data.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-data) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-data.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-data)
+#### basic test coverage for  [gulp-data (v1.2.1)](https://github.com/colynb/gulp-data#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-data.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-data) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-data.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-data)
 
 #### Generate a data object from a variety of sources: json, front-matter, databases, promises, anything... and set it to the file object for other plugins to consume.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-data/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-data/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-data/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-data/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-data/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-data/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-gulp-data/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-gulp-data/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-data/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-data/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-gulp-data/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-data/build/coverage.html/index.html)
 
@@ -100,7 +100,8 @@
         "pretest": "jshint *.js test/*.js",
         "test": "istanbul test _mocha --report html -- test/*.js"
     },
-    "version": "1.2.1"
+    "version": "1.2.1",
+    "bin": {}
 }
 ```
 
